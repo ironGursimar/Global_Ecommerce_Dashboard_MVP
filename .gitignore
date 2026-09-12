@@ -1,0 +1,20 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated data and artifacts
+*.db
+*.sqlite
+*.sqlite3
+models/*.joblib
+models/*.pkl
+
+# Local configuration
+.env
+
+# Tooling
+.ipynb_checkpoints/
+.pytest_cache/
+.streamlit/secrets.toml
